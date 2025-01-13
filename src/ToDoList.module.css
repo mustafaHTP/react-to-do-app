@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-task {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 500px;
+}
+
+.task-description {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    margin: 0px 5px;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: rgb(93, 187, 91);
+}
+
+.btn-delete {
+    background-color: rgb(242, 48, 13);
+}
+
+.btn-move-up {
+    background-color: rgb(65, 172, 250);
+}
+
+.btn-move-down {
+    background-color: rgb(65, 172, 250);
+}
+
+/* END - Buttons */
